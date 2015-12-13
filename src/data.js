@@ -1,36 +1,38 @@
 angular.module('AudioTrackr').factory('songFactory', function () {
+	// Phoenix multitracks:
+	// https://musicbrainz.org/release-group/6772486a-4bd0-4548-8b06-4e18b12cdd76
 	return [
-		{
+		/*{
 			name: 'Don\'t Stop Me Now',
 			band: 'Queen',
 			link: 'https://itunes.apple.com/us/album/dont-stop-me-now/id27243728?i=27243788',
 			tracks: [
 				{
 					name: 'piano',
-					url: 'files/dontstopmenow/piano.mp3',
+					url: 'files/dontstopmenow/piano.mp3'
 				},
 				{
 					name: 'bass',
-					url: 'files/dontstopmenow/bass.mp3',
+					url: 'files/dontstopmenow/bass.mp3'
 				},
 				{
 					name: 'guitar',
-					url: 'files/dontstopmenow/guitar.mp3',
+					url: 'files/dontstopmenow/guitar.mp3'
 				},
 				{
 					name: 'vocals',
-					url: 'files/dontstopmenow/voice.mp3',
+					url: 'files/dontstopmenow/voice.mp3'
 				},
 				{
 					name: 'backing vocals',
-					url: 'files/dontstopmenow/chorus.mp3',
+					url: 'files/dontstopmenow/chorus.mp3'
 				},
 				{
 					name: 'drums',
-					url: 'files/dontstopmenow/drums.mp3',
+					url: 'files/dontstopmenow/drums.mp3'
 				}
 			]
-		},
+		},*/
 		{
 			name: 'Reckoner',
 			band: 'Radiohead',
@@ -62,7 +64,7 @@ angular.module('AudioTrackr').factory('songFactory', function () {
 				}
 			]
 		},
-		{
+		/*{
 			name: 'White Knuckles',
 			band: 'OK Go',
 			link: 'https://itunes.apple.com/us/album/white-knuckles/id375464312?i=375464644',
@@ -123,8 +125,8 @@ angular.module('AudioTrackr').factory('songFactory', function () {
 					url: 'files/analogordigital/Analog or Digital.Drums.mp3'
 				},
 			]
-		},
-		{
+		},*/
+		/*{
 			name: 'Armistice',
 			band: 'Phoenix',
 			link: 'https://itunes.apple.com/us/album/armistice/id315002203?i=315002670',
@@ -154,7 +156,7 @@ angular.module('AudioTrackr').factory('songFactory', function () {
 					url: 'files/armistice/Beat.mp3'
 				}
 			]
-		},
+		},*/
 		{
 			name: 'Lisztomania',
 			band: 'Phoenix',
@@ -162,46 +164,56 @@ angular.module('AudioTrackr').factory('songFactory', function () {
 			tracks: [
 				{
 					name: 'guitar 1',
-					url: '//cbateman.com/demos/AudioTrackr/files/lisztomania/Guitar1.mp3'
+					url: 'files/lisztomania/Guitar1.mp3'
+					//url: '//cbateman.com/demos/AudioTrackr/files/lisztomania/Guitar1.mp3'
 				},
 				{
 					name: 'guitar 2',
-					url: '//s1.cbateman.com/demos/AudioTrackr/files/lisztomania/Guitar2.mp3'
+					url: 'files/lisztomania/Guitar2.mp3'
+					//url: '//s1.cbateman.com/demos/AudioTrackr/files/lisztomania/Guitar2.mp3'
 				},
 				{
 					name: 'guitar 3',
-					url: '//s2.cbateman.com/demos/AudioTrackr/files/lisztomania/Guitar3.mp3'
+					url: 'files/lisztomania/Guitar3.mp3'
+					//url: '//s2.cbateman.com/demos/AudioTrackr/files/lisztomania/Guitar3.mp3'
 				},
 				{
 					name: 'bass',
-					url: '//cbateman.com/demos/AudioTrackr/files/lisztomania/Bass-combined.mp3'
+					url: 'files/lisztomania/Bass-combined.mp3'
+					//url: '//cbateman.com/demos/AudioTrackr/files/lisztomania/Bass-combined.mp3'
 				},
 				{
 					name: 'cocotte',
-					url: '//s1.cbateman.com/demos/AudioTrackr/files/lisztomania/Cocotte.mp3'
+					url: 'files/lisztomania/Cocotte.mp3'
+					//url: '//s1.cbateman.com/demos/AudioTrackr/files/lisztomania/Cocotte.mp3'
 				},
 				{
 					name: 'motif',
-					url: '//s2.cbateman.com/demos/AudioTrackr/files/lisztomania/Motif.mp3'
+					url: 'files/lisztomania/Motif.mp3'
+					//url: '//s2.cbateman.com/demos/AudioTrackr/files/lisztomania/Motif.mp3'
 				},
 				{
 					name: 'brass',
-					url: '//cbateman.com/demos/AudioTrackr/files/lisztomania/Brass.mp3'
+					url: 'files/lisztomania/Brass.mp3'
+					//url: '//cbateman.com/demos/AudioTrackr/files/lisztomania/Brass.mp3'
 				},
 				{
 					name: 'keys',
-					url: '//s1.cbateman.com/demos/AudioTrackr/files/lisztomania/Key.mp3'
+					url: 'files/lisztomania/Key.mp3'
+					//url: '//s1.cbateman.com/demos/AudioTrackr/files/lisztomania/Key.mp3'
 				},
 				{
 					name: 'vocals',
-					url: '//s2.cbateman.com/demos/AudioTrackr/files/lisztomania/Vox.mp3'
+					url: 'files/lisztomania/Vox.mp3'
+					//url: '//s2.cbateman.com/demos/AudioTrackr/files/lisztomania/Vox.mp3'
 				},
 				{
 					name: 'drums',
-					url: '//cbateman.com/demos/AudioTrackr/files/lisztomania/Beat.mp3'
+					url: 'files/lisztomania/Beat.mp3'
+					//url: '//cbateman.com/demos/AudioTrackr/files/lisztomania/Beat.mp3'
 				}
 			]
-		},
+		}/*,
 		{
 			name: 'Trying to be Cool',
 			band: 'Phoenix',
@@ -248,6 +260,6 @@ angular.module('AudioTrackr').factory('songFactory', function () {
 					url: '//cbateman.com/demos/AudioTrackr/files/tryingtobecool/GLOCK CLAPS.mp3'
 				}
 			]
-		}
+		}*/
 	];
 });

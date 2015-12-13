@@ -124,7 +124,7 @@ angular.module('AudioTrackr').directive('track', function() {
 		link: function(scope, elem, attrs) {
 			
 		},
-		templateUrl: 'track/track.htm',
+		templateUrl: 'track/track.html',
 		controller: trackController
 	}
 });
